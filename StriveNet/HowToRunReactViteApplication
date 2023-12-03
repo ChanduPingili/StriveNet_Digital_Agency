@@ -1,0 +1,49 @@
+--Pre-requisites--
+1.Download wamp server application in your system
+2.Create a folder with react+vite environment, let(Major).
+
+--Create React+vite environment--
+1.Open C:/wamp64/www in vs code
+2.Enter the following Commands
+  -npm i create vite@latest
+  -major_project (in place of project name)
+  -select react
+  -select javascript
+3.Download some other dependencies 
+  -npm i react-router-dom --save
+  -npm install axios --save
+4.Expect node_modules folder delete all other files and folders 
+
+--Download and extract files--
+1.Download the Major_Project folder from the drive link
+2.Extra the folder in C:/wamp64/www
+3.Copy the all files and folders of Major_Project
+4.Paste them in major_project folder
+5.Open major_project in vs code
+6.Open terminal
+7.Enter npm run dev in terminal
+8.Ctrl+click on the link, it will open the website
+
+
+--Data base creation--
+(Double tap on the wamp server icon on desktop to on the wamp server)
+1.Enter localhost in address bar of any search engine(prefer the same search engine in where major_prject opens) the click on php my admin
+2.User name : root
+3.passward :
+4.login
+5.Create a database named strivenet
+6.Craete a table named contact
+7.Table columns
+  -name 
+  -email
+  -subject
+  -message
+
+--To check the database updations--
+(Double tap on the wamp server icon on desktop to on the wamp server)
+1.Enter localhost in address bar of any search engine(prefer the same search engine in where major_prject opens) the click on php my admin
+2.User name : root
+3.passward :
+4.login
+5.Open the contact table of strivenet database 
+6.You can know observe the table contents
